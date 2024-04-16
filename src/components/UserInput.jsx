@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-function UserInput({onChange, userInput}) {
+function UserInput({ onChange, userInput }) {
   return (
     <section id="user-input">
       <div className="input-group">
@@ -26,6 +24,8 @@ function UserInput({onChange, userInput}) {
             required
           />
         </p>
+      </div>
+      <div className="input-group">
         <p>
           <label>Expected Return</label>
           <input
