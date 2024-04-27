@@ -8,7 +8,7 @@ function App() {
     initialInvestment: 1000,
     annualInvestment: 1200,
     expectedReturn: 6,
-    duration: 10,
+    duration: 7,
   });
 
   const isInputValid = userInput.duration >= 1;
@@ -23,8 +23,17 @@ function App() {
     <>
       <Header />
       <UserInput userInput={userInput} onChange={handleChange} />
-      {!isInputValid && <p className="center">Please enter a duration greater than zero.</p>}
+      {!isInputValid && (
+        <p className="center">Please enter a duration greater than zero.</p>
+      )}
       {isInputValid && <Results input={userInput} />}
+      <p id="app-p">
+        Created by
+        <a target="_blank" href="https://www.linkedin.com/in/burhan-siraj/">
+          {" "}
+          Burhan Uddin
+        </a>
+      </p>
     </>
   );
 }

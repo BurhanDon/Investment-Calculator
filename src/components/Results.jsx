@@ -7,7 +7,6 @@ function Results({ input }) {
     resultsData[0].valueEndOfYear -
     resultsData[0].interest -
     resultsData[0].annualInvestment;
-  console.log(resultsData);
   return (
     <table id="result">
       <thead>
