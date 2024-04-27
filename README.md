@@ -6,7 +6,7 @@
   <title>Your Repository Name</title>
   <meta property="og:title" content="Your Repository Name">
   <meta property="og:description" content="Description of your repository">
-  <meta property="og:image" content="file:///D:/Investment-Calculator.png">
+  <meta property="og:image" content="https://github.com/BurhanDon/React-Investment-Calculator/blob/master/public/logo-removebg.png">
 </head>
 <body>
   <!-- Your repository content goes here -->
